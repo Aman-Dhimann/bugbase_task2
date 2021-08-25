@@ -56,17 +56,17 @@ Later we will test if we can evade the waf with a sqli payload, we will use the 
 
 I use this [unicode converter](https://www.branah.com/unicode-converter)
 
-<img src="Picture6.png">
+<img src="Picture11.png">
 
 Now we load the payload in the request and send it:
 
-<img src="Picture7.png">
+<img src="Picture12.png">
 
 Where we can see that we get a 200 and that there are still 149 response bytes.
 
 Now we will copy the request to a file putting ```*``` where we want the payload to be loaded.
 
-<img src="Picture5.png">
+<img src="Picture13.png">
 
 # Blind SQL Injection
 
