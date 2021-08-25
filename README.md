@@ -56,7 +56,7 @@ Once the request is captured, we will send it to the repeater
 
 <img src="Picture5.png">
 
-after this we will overcome this  using payload **or sleep(10) #** will be encoded to utf-16 to json decode.
+after this we will overcome this  using payload **or sleep(10) #** will be encoded to utf-16 from json decode.
 
 (https://www.branah.com/unicode-converter)
 
