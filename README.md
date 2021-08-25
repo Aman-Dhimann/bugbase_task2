@@ -1,17 +1,24 @@
 # bugbase_task2
-# Waf Waf Challenge HTB
+## Wafwaf hackthebox
 
 <img src="Picture1.png">
 
-On entering the ip in the browser
+
+<p>&nbsp;</p>  
+
+
+On entering the ip in the browser.
 
 <img src="Picture2.png">
+<p>&nbsp;</p>
+
 it looks somewhat a php code
-there is a sql database and the input of POST requests are filtered using the function *waf*
+
+there is a sql database and the input of POST requests are filtered using the function *waf*.
 
 <img src="Picture3.png">
 
-The script ends abruptly after a symbol is found
+- The script ends abruptly after a symbol is found
 
 
 ***[, (, *, <, =, >, |, ', &, -, @, ], select, and, or, if, by, from, where,
